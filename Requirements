@@ -1,0 +1,38 @@
+Java Collection Framework
+This project leverages the Java Collection Framework, which offers a structured way to store and manage groups of objects efficiently.
+
+Collections Used in This Project
+In Graph_M.java:
+ArrayList – For dynamic lists of vertices and neighbors
+
+LinkedList – For queue operations in BFS
+
+Stack – For DFS traversal
+
+HashMap – To map stations to their connections efficiently
+
+In Heap.java:
+ArrayList – To maintain the heap structure dynamically
+
+HashMap – To track node positions and enable efficient updates
+
+Data Structures Utilized
+This project integrates multiple data structures to model and solve metro routing effectively:
+
+Array (via ArrayList):
+Resizable array storing graph nodes and heap elements in contiguous memory.
+
+HashMap:
+Key-value pairs used for station mapping, edge lookups, and node indexing in heaps.
+
+Linked List:
+Implements stack and queue functionalities with efficient insertions and deletions.
+
+Stack:
+Supports LIFO operations, used in DFS traversal.
+
+Heap (Min-Heap):
+Priority queue implemented using ArrayList and HashMap to optimize Dijkstra's algorithm.
+
+Graph:
+Represents the metro network, with stations as vertices and connections as weighted edges, implemented using adjacency lists (ArrayList + HashMap).
