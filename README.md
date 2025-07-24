@@ -115,8 +115,6 @@ Create a new branch
 
 Make your changes (add new stations, improve GUI, etc.)
 
-Submit a PR!
-
 🧑‍💻 Developer
 Vamshi S Hari Hara Kiran Reddy J
 📧 vamshikr912@gmail.com
